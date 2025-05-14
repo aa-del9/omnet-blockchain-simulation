@@ -1,0 +1,627 @@
+version 3
+run General-0-20250512-19:41:07-22327
+attr configname General
+attr datetime 20250512-19:41:07
+attr datetimef 20250512-194107
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network project.BlockchainNetwork
+attr processid 22327
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network project.BlockchainNetwork
+config sim-time-limit 50s
+config **.numPeers 3
+config **.node[*].blockGenInterval exponential(5s)
+config output-scalar-file results.sca
+
+par BlockchainNetwork.node[0].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[0].channel delay 0.0358358s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[1].channel delay 0.0253753s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[2].channel delay 0.0275035s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[3].channel delay 0.0219014s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[4].channel delay 0.0456709s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[5].channel delay 0.0122685s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[6].channel delay 0.0485465s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[7].channel delay 0.0209063s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[0].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[0].out[8].channel delay 0.0253377s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[0].channel delay 0.0291066s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[1].channel delay 0.041669s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[2].channel delay 0.0424867s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[3].channel delay 0.0311558s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[4].channel delay 0.0291991s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[5].channel delay 0.0327218s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[6].channel delay 0.0257114s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[7].channel delay 0.0470239s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[1].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[1].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[1].out[8].channel delay 0.0434432s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[0].channel delay 0.0128414s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[1].channel delay 0.0234958s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[2].channel delay 0.0134852s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[3].channel delay 0.0359269s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[4].channel delay 0.0108087s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[5].channel delay 0.0247297s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[6].channel delay 0.0433048s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[7].channel delay 0.0482862s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[2].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[2].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[2].out[8].channel delay 0.0411263s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[0].channel delay 0.015614s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[1].channel delay 0.0448005s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[2].channel delay 0.0448035s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[3].channel delay 0.0491447s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[4].channel delay 0.0289443s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[5].channel delay 0.0419663s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[6].channel delay 0.0420364s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[7].channel delay 0.0284592s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[3].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[3].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[3].out[8].channel delay 0.0308191s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[0].channel delay 0.0412212s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[1].channel delay 0.0371552s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[2].channel delay 0.014731s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[3].channel delay 0.0388253s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[4].channel delay 0.0355968s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[5].channel delay 0.0332808s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[6].channel delay 0.0157341s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[7].channel delay 0.0314949s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[4].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[4].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[4].out[8].channel delay 0.0477868s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[0].channel delay 0.0403446s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[1].channel delay 0.0308739s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[2].channel delay 0.0142363s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[3].channel delay 0.0265865s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[4].channel delay 0.028944s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[5].channel delay 0.0205822s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[6].channel delay 0.0174533s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[7].channel delay 0.0409693s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[5].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[5].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[5].out[8].channel delay 0.0394767s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[0].channel delay 0.028246s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[1].channel delay 0.018662s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[2].channel delay 0.0327374s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[3].channel delay 0.0154087s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[4].channel delay 0.0107516s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[5].channel delay 0.0229656s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[6].channel delay 0.0347054s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[7].channel delay 0.015987s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[6].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[6].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[6].out[8].channel delay 0.0344838s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[0].channel delay 0.0188929s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[1].channel delay 0.0346774s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[2].channel delay 0.0254596s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[3].channel delay 0.0477499s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[4].channel delay 0.0461039s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[5].channel delay 0.0372728s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[6].channel delay 0.027998s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[7].channel delay 0.0243803s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[7].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[7].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[7].out[8].channel delay 0.0345225s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[0].channel delay 0.0274813s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[1].channel delay 0.0460939s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[2].channel delay 0.0379052s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[3].channel delay 0.0139712s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[4].channel delay 0.012409s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[5].channel delay 0.0487924s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[6].channel delay 0.0366707s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[7].channel delay 0.0361256s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[8].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[8].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[8].out[8].channel delay 0.0368255s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[0].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[0].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[0].channel delay 0.0168364s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[1].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[1].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[1].channel delay 0.0184153s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[2].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[2].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[2].channel delay 0.0243261s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[3].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[3].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[3].channel delay 0.0151571s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[4].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[4].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[4].channel delay 0.0400274s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[5].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[5].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[5].channel delay 0.0226171s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[6].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[6].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[6].channel delay 0.0343132s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[7].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[7].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[7].channel delay 0.0245484s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[9].out[8].channel typename "\"ned.DelayChannel\""
+par BlockchainNetwork.node[9].out[8].channel disabled false
+attr mutable ""
+par BlockchainNetwork.node[9].out[8].channel delay 0.0230019s
+attr mutable ""
+attr unit s
+par BlockchainNetwork.node[0] typename "\"project.Node\""
+par BlockchainNetwork.node[0] nodeId 0
+par BlockchainNetwork.node[0] numPeers 3
+par BlockchainNetwork.node[0] gateSize 10
+par BlockchainNetwork.node[0] blockGenInterval 1.59175s
+attr unit s
+par BlockchainNetwork.node[1] typename "\"project.Node\""
+par BlockchainNetwork.node[1] nodeId 1
+par BlockchainNetwork.node[1] numPeers 3
+par BlockchainNetwork.node[1] gateSize 10
+par BlockchainNetwork.node[1] blockGenInterval 1.79712s
+attr unit s
+par BlockchainNetwork.node[2] typename "\"project.Node\""
+par BlockchainNetwork.node[2] nodeId 2
+par BlockchainNetwork.node[2] numPeers 3
+par BlockchainNetwork.node[2] gateSize 10
+par BlockchainNetwork.node[2] blockGenInterval 2.51186s
+attr unit s
+par BlockchainNetwork.node[3] typename "\"project.Node\""
+par BlockchainNetwork.node[3] nodeId 3
+par BlockchainNetwork.node[3] numPeers 3
+par BlockchainNetwork.node[3] gateSize 10
+par BlockchainNetwork.node[3] blockGenInterval 3.71921s
+attr unit s
+par BlockchainNetwork.node[4] typename "\"project.Node\""
+par BlockchainNetwork.node[4] nodeId 4
+par BlockchainNetwork.node[4] numPeers 3
+par BlockchainNetwork.node[4] gateSize 10
+par BlockchainNetwork.node[4] blockGenInterval 1.84645s
+attr unit s
+par BlockchainNetwork.node[5] typename "\"project.Node\""
+par BlockchainNetwork.node[5] nodeId 5
+par BlockchainNetwork.node[5] numPeers 3
+par BlockchainNetwork.node[5] gateSize 10
+par BlockchainNetwork.node[5] blockGenInterval 3.90309s
+attr unit s
+par BlockchainNetwork.node[6] typename "\"project.Node\""
+par BlockchainNetwork.node[6] nodeId 6
+par BlockchainNetwork.node[6] numPeers 3
+par BlockchainNetwork.node[6] gateSize 10
+par BlockchainNetwork.node[6] blockGenInterval 1.5744s
+attr unit s
+par BlockchainNetwork.node[7] typename "\"project.Node\""
+par BlockchainNetwork.node[7] nodeId 7
+par BlockchainNetwork.node[7] numPeers 3
+par BlockchainNetwork.node[7] gateSize 10
+par BlockchainNetwork.node[7] blockGenInterval 3.75793s
+attr unit s
+par BlockchainNetwork.node[8] typename "\"project.Node\""
+par BlockchainNetwork.node[8] nodeId 8
+par BlockchainNetwork.node[8] numPeers 3
+par BlockchainNetwork.node[8] gateSize 10
+par BlockchainNetwork.node[8] blockGenInterval 1.1021s
+attr unit s
+par BlockchainNetwork.node[9] typename "\"project.Node\""
+par BlockchainNetwork.node[9] nodeId 9
+par BlockchainNetwork.node[9] numPeers 3
+par BlockchainNetwork.node[9] gateSize 10
+par BlockchainNetwork.node[9] blockGenInterval 1.95401s
+attr unit s
+par BlockchainNetwork typename "\"project.BlockchainNetwork\""
+par BlockchainNetwork numNodes 10
+
